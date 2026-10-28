@@ -1,12 +1,39 @@
 body{
-    color: brown;
+  color: darkcyan;
 }
 
-p{
-    color: steelblue;
+header h1{
+  color: brown;
 }
 
-.color{
-    color: blueviolet;
-    font-size: 12px;
+header nav ul li{
+  color: brown;
+}
+
+header nav ul li a{
+  color: brown;
+}
+
+main section article h2{
+  color: blueviolet;
+}
+
+main section article p{
+  color: black;
+}
+
+main section article a{
+  color: red;
+}
+
+aside h2{
+  color: gray;
+}
+
+aside nav ul li a{
+  color: gray;
+}
+
+footer{
+  color: gray;
 }

@@ -1,5 +1,13 @@
+
 body{
   color: darkcyan;
+}
+
+header{
+  background-color: aqua;
+  background-image: url(img/free-wallpaper-pattern-vector.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 header h1{
@@ -14,8 +22,18 @@ header nav ul li a{
   color: brown;
 }
 
+main{
+  background-color: #158915;
+}
+
+main article{
+  display: block;
+  padding: 20px 20px;
+  margin: 15px;
+}
+
 main section article h2{
-  color: blueviolet;
+  color: blue;
 }
 
 main section article p{
@@ -24,6 +42,10 @@ main section article p{
 
 main section article a{
   color: red;
+}
+
+aside{
+  background-color: blue;
 }
 
 aside h2{
@@ -35,5 +57,9 @@ aside nav ul li a{
 }
 
 footer{
+  background-color: red;
+}
+
+footer nav ul li a{
   color: gray;
 }

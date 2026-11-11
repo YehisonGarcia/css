@@ -22,7 +22,7 @@ body{
 
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
 
 }
 
@@ -46,6 +46,16 @@ header nav ul li a{
   color: var(--color-texto);
 }
 
+main section article a:hover {
+  background-color: var(--color-primario);
+  color: var(--color-texto);
+}
+
+main section article a:active {
+  color: var(--color-background);
+  background-color: var(--color-texto);
+}
+
 main{
   background-color: var(--color-background);
 }
@@ -60,25 +70,58 @@ main section article h2{
   color: var(--color-texto);
 }
 
+main section article h2::after {
+  content: "¡Nuevo!";
+  background-color: var(--color-secundario);
+  color: var(--color-background);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
 main section article p{
   color: var(--color-texto);
 }
 
 main section article a{
-  color: var(--color-secundario);
+  color: var(--color-background);
+  background-color: var(--color-secundario);
+}
+
+aside nav ul li a:hover{
+  font-weight: bolder;
+  color: var(--color-background);
+  background-color: var(--color-secundario);
+}
+
+aside nav ul li a:focus {
+  outline: 2px solid var(--color-secundario);
+  outline-offset: 3px;
+}                     
+
+aside nav ul li a::before{
+  content: "\f491";
 }
 
 aside{
   color: var(--color-texto);
-  background-color: var(--color-primario);
+  background-color: var(--color-background);
 }
 
 aside h2{
   color: var(--color-texto);
 }
 
+aside nav ul li{
+  color: var(--color-background);
+}
+
 aside nav ul li a{
   color: var(--color-texto);
+  background-color: var(--color-background);
+  font-family: boxicons;
 }
 
 footer{
